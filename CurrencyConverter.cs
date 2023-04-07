@@ -50,7 +50,7 @@ namespace CurrencyConverter
             var client = new RestClient($"https://api.apilayer.com/");
 
             var request = new RestRequest(relativeURI);
-            request.AddHeader("apikey", "<ADD API KEY HERE>");
+            request.AddHeader("apikey", "GCwCcY1Oo0AWwxgqIzUxESOuemdoDY0S");
 
             RestResponse response = client.Execute(request);
             return response.Content;
